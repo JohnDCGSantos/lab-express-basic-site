@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    
+    
+}
+.imageBack{
+    background-image: url("./images/back.jpg");
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: contain;
+    max-height: 100vh;
+   max-width: 100vw;
+   
+}
+.navBar{
+    list-style: none;
+    background-color:rgb(220, 183, 15);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 60px;
+    opacity: 1;
+   
+}
+
+.navBar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 2px solid rgb(22, 22, 22);
+    border-radius: 8px;
+    
+    padding: 5px;
+    background-color: firebrick; opacity: 1;;
+   
+}
+
+.navBar li{
+    background-color: aqua;
+}
+
+img{
+    padding: 10px;
+    border: 2px solid rgb(22, 22, 22);
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.aboutK{
+    background-color: rgb(200, 210, 215);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   height: 200px ;
+
+}
+.proK{
+    background-color: rgb(29, 96, 203);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   height: 200px ;
+
+}
+.Environ{
+    background-color: rgb(200, 210, 215);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   height: 200px ;
+
+}
+.lifeBe{
+    padding: 5px;
+    background-color: rgb(29, 96, 203);
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   height: 200px ;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    
+    
+}
+.card h3{
+    color:firebrick;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.card p{
+    display: flex;
+    text-align: justify;
+    margin: 10px;
+}
+
+h1{
+    color: firebrick
+}
